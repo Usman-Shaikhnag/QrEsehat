@@ -43,6 +43,7 @@ export class QrGeneratorComponent implements OnInit {
     console.log(this.selectedfile);
     if(this.selectedfile != null){
       this.pdfdata=true;
+      this.showmessage = false;
     }else{
       this.showmessage = true;
     }
